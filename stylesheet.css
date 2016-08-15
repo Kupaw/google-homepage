@@ -1,0 +1,151 @@
+a:visited, a:link{
+  text-decoration: none;
+  color: black;
+  font-family: arial;
+  font-size: 13px;
+}
+
+body{
+  font-family: arial;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.apps{
+  height: 23px;
+  width: 23px;
+  background-image: url("images/icons.png");
+  background-position: -138 -43;
+}
+
+.noti{
+  display: block;
+  background-position: -317 -43;
+  background-image: url("images/icons.png");
+  height: 23px;
+}
+
+.mail{
+  background-image: url("images/gmail.jpg");
+  height: 30px;
+  width: 12px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.moreopt{
+  position: absolute;
+  top: 15px;
+  left: 75%;
+}
+
+.moreopt a{
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 3px;
+  cursor: default;
+}
+
+.logo{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.search{
+  margin-top: 180px;
+}
+
+input[type=text]{
+  padding-left: 10px;
+  height: 38px;
+  width: 600px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  padding-right: 50px;
+}
+
+input[type=text]:hover{
+  border: 1px solid #000;
+}
+
+input[type=text]:focus{
+  border: 1px solid blue;
+}
+
+/* Falta focus */
+
+input[type=button], input[type=submit]{
+  background-color: #f1f1f1;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #777;
+  border: 1px solid #eee;
+  height: 34px;
+  width: 140;
+}
+footer{
+  font-size: small;
+  position: absolute;
+  background-color: #f2f2f2;
+  height: 40px;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+}
+
+.foot .ri{
+  display: inline-block;
+}
+
+.foot a{
+  margin-left: 35px;
+  color: #666;x
+}
+
+.ri{
+  float: right;
+  margin-right: 20px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: block
+}
+
+
+a.sign-btn{
+line-height: 28px;
+margin-left: 16px;
+border: 1px solid #4285f4;
+color: white;
+background-color: #4285f4;
+border-radius: 2px;
+font-weight: bold;
+font-size: 13px;
+outline: none;
+padding: 0px 13px;
+}
+
+span.voice{
+  position: relative;
+  margin-left: -40px;
+  background-image: url("images/voice.png");
+  height: 26px;
+  width: 26px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: -8px;
+}
